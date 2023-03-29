@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A custom SwiftUI view that presents a number picker for selecting whole numbers.
 public struct WholeNumberWheelPicker: View {
     private let viewModel: ViewModel
     @State private var hasAppeared = false

@@ -9,7 +9,7 @@ import XCTest
 import NumberWheelPicker
 import snapshotino
 
-final class NumberWheelPickerTests: XCTestCase {
+final class WholeNumberWheelPickerTests: XCTestCase {
     let min = WholeNumberWheelPicker.ViewModel.Constants.minLength
     let max = WholeNumberWheelPicker.ViewModel.Constants.maxLength
     

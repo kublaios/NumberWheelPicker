@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "snapshotino",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kublaios/snapshotino",
+      "state" : {
+        "revision" : "8d063610d2d7124b501efd77599cc98ed1a116b7",
+        "version" : "0.0.4"
+      }
+    }
+  ],
+  "version" : 2
+}

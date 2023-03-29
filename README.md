@@ -2,27 +2,22 @@
 
 NumberWheelPicker is a Swift package that provides two simple and customizable components for making it easy for users to input whole or decimal numbers.
 
-`WholeNumberWheelPicker`
----
-
-<img src="Tests/NumberWheelPickerTests/__snapshots__/WholeNumberWheelPicker_testPreselectedValue.png" alt="Whole number wheel picker" width="300">
-
-`DecimalNumberWheelPicker`
----
-
-<img src="Tests/NumberWheelPickerTests/__snapshots__/DecimalNumberWheelPicker_testPreselectedValue.png" alt="Decimal number wheel picker" width="300">
-
 ## Features
-- Customizable number of digits for whole and fractional parts
-- Preselected values
 - Built using native SwiftUI components
 - Fully compatible with light and dark mode
+- Customizable number of digits for whole and fractional parts
+- Preselected values
 - Compatible with iOS 14 and above
+
+Here are images from both pickers (note that they were recorded with a black background during snapshot testing, but they blend in with no issues in the real UI).
+| `WholeNumberWheelPicker` | `DecimalNumberWheelPicker` |
+| - | - |
+| <img src="Tests/NumberWheelPickerTests/__snapshots__/WholeNumberWheelPicker_testPreselectedValue.png" alt="Whole number wheel picker" width="375"> | <img src="Tests/NumberWheelPickerTests/__snapshots__/DecimalNumberWheelPicker_testPreselectedValue.png" alt="Decimal number wheel picker" width="375"> |
 
 ## Installation
 ### Swift Package Manager
 - In Xcode, select “File” → “Add Packages...”
-- Enter git@github.com:kublaios/NumberWheelPicker.git
+- Enter `git@github.com:kublaios/NumberWheelPicker.git`
 
 ...or you can add the following dependency to your Package.swift:
 ```
